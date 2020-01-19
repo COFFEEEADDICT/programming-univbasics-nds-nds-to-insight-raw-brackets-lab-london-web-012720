@@ -8,7 +8,7 @@ require 'directors_database'
 
 def directors_totals(nds)
 name_i = 0
-each_total = 0
+
 second_count = 0
 names = ""
 insert_name = ""
@@ -17,7 +17,7 @@ result = {
 }
       while name_i < nds.length do
       insert_name = nds[name_i][:name]
-
+each_total = 0
             while second_count < nds[name_i][:movies].length do
                 each_total += nds[name_i][:movies][second_count][:worldwide_gross]
                 second_count += 1
