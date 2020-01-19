@@ -24,7 +24,9 @@ insert_name = ""
             result[insert_name] = each_total
             name_i +=1
       end
-result = {}
+result = {
+
+}
 pp result
   return  result
 end
