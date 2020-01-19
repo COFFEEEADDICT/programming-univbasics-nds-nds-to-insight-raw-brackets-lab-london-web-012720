@@ -23,6 +23,9 @@ insert_name = ""
             end
             result[insert_name] = each_total
             name_i +=1
+            result = {
+
+            }
       end
 result = {
 
