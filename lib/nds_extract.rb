@@ -13,6 +13,8 @@ second_count = 0
 names = ""
 insert_name = ""
 
+result = {
+}
 
       while name_i < nds.length do
       insert_name = nds[name_i][:name]
@@ -23,9 +25,7 @@ insert_name = ""
             end
             result[insert_name] = each_total
             name_i +=1
-            result = {
 
-            }
       end
 
 
