@@ -25,7 +25,7 @@ result = {
             end
 
             name_i +=1
-result[insert_name] += each_total
+result[insert_name] = each_total
       end
 
 pp result
