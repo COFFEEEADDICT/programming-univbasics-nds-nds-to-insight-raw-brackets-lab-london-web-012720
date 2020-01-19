@@ -27,9 +27,7 @@ insert_name = ""
 
             }
       end
-result = {
 
-}
 pp result
   return  result
 end
