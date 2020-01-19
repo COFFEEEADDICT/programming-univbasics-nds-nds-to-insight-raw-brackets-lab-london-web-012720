@@ -18,7 +18,9 @@ result = {
 
       while name_i < nds.length do
       insert_name = nds[name_i][:name]
+
             second_count = 0
+            each_total = 0
             while second_count < nds[name_i][:movies].length do
                 each_total += nds[name_i][:movies][second_count][:worldwide_gross]
                 second_count += 1
