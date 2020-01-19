@@ -25,9 +25,9 @@ result = {
             end
 
             name_i +=1
-
-      end
 result[insert_name] = each_total
+      end
+
 pp result
   return result
 end
