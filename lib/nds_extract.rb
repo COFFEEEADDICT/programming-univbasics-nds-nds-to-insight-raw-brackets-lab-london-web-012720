@@ -23,7 +23,7 @@ result = {
                 each_total += nds[name_i][:movies][second_count][:worldwide_gross]
                 second_count += 1
             end
-          
+
             name_i +=1
 result[insert_name] = each_total
       end
