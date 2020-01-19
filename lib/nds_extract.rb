@@ -8,7 +8,7 @@ require 'directors_database'
 
 def directors_totals(nds)
 name_i = 0
-each_total = 0
+
 
 names = ""
 insert_name = ""
