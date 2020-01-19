@@ -26,8 +26,8 @@ result = {
             name_i +=1
       end
 
-pp result
-  return result
+
+  return pp result
 end
 
 #
