@@ -8,7 +8,7 @@ require 'directors_database'
 
 def directors_totals(nds)
 name_i = 0
-
+each_total = 0
 second_count = 0
 names = ""
 insert_name = ""
@@ -24,8 +24,7 @@ insert_name = ""
             result[insert_name] = each_total
             name_i +=1
       end
-      result = {
-      }
+result = {}
 pp result
   return  result
 end
